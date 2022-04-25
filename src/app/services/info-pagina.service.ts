@@ -30,7 +30,6 @@ export class InfoPaginaService {
       .get('https://angular-html-a0649-default-rtdb.firebaseio.com/equipo.json')
       .subscribe((resp: any) => {
         this.equipo = resp;
-        console.log(resp);
       });
   }
 }
